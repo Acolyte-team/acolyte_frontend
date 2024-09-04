@@ -2,7 +2,7 @@ import React from 'react';
 import { QRCodeSVG } from 'qrcode.react';
 import styles from './home.module.css';
 
-const Home: React.FC = () => {
+const Home= () => {
 
     const qrValue = "https://your-website-link.com";
 

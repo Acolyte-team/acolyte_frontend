@@ -1,16 +1,10 @@
 import React, { ReactNode } from 'react';
 import PropTypes from 'prop-types';
-import styles from './Button.module.css';
+import styles from './button.module.css';
 
-interface ButtonProps {
-    width?: string;
-    children?: ReactNode;
-    onClick?: () => void;
-    name?: string;
-    className?: string;
-}
 
-const Button: React.FC<ButtonProps> = ({ width, children, onClick, name, className }) => {
+
+const Button = ({ width, children, onClick, name, className }) => {
     return (
         <button
             onClick={onClick}

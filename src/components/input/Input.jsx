@@ -2,15 +2,8 @@ import React, { ChangeEvent } from 'react';
 import PropTypes from 'prop-types';
 import styles from './Input.module.css';
 
-interface InputProps {
-    width?: string;
-    placeholder?: string;
-    onChange?: (event: ChangeEvent<HTMLInputElement>) => void;
-    value?: string;
-    type?: string;
-}
 
-const Input: React.FC<InputProps> = ({ width, placeholder, onChange, value, type }) => {
+const Input = ({ width, placeholder, onChange, value, type }) => {
     return (
         <div className={styles.inputContainer}>
             <input

@@ -1,7 +1,7 @@
 import Navbar from "../components/navbar/Navbar"
 import { Outlet } from 'react-router-dom'
 
-const Userlayout: React.FC = () => {
+const Userlayout= () => {
     return (
 
         <div>

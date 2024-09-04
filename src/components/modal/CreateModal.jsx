@@ -68,7 +68,7 @@ import Input from '../input/Input';
 import Button from '../button/Button';
 import styles from './createmodal.module.css';
 
-const CreateModal: React.FC = () => {
+const CreateModal= () => {
     const [currentPage, setCurrentPage] = useState(1);
 
     const nextPage = () => {

@@ -4,7 +4,7 @@ import meta from '../../assets/react.svg';  // Example path
 import trust from '../../assets/react.svg'; // Example path
 import other from '../../assets/react.svg'; // Example path
 
-const Wallet: React.FC = () => {
+const Wallet = () => {
     const sample = [
         {
             img: meta,

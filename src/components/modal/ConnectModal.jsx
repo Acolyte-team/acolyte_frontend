@@ -1,12 +1,9 @@
 import React from 'react';
 import Wallet from '../selectbutton/Wallet';
-import styles from './connectmodal.module.css';
+import styles from './connectModal.module.css';
 
-interface ConnectModalProps {
-    onClose: () => void;
-}
 
-const ConnectModal: React.FC<ConnectModalProps> = ({ onClose }) => {
+const ConnectModal = ({ onClose }) => {
     return (
         <div className={styles.modalBackdrop} onClick={onClose}>
             <div className={styles.modalContent} onClick={(e) => e.stopPropagation()}>

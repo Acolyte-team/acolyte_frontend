@@ -2,7 +2,7 @@ import React from 'react';
 import Dropdown from './Dropdown';
 import styles from './Course.module.css';
 
-const Course: React.FC = () => {
+const Course = () => {
     const menuItems = [
         { text: 'Mathematics', value: 'math' },
         { text: 'Science', value: 'science' },

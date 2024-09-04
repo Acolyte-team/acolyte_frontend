@@ -1,18 +1,8 @@
 import React from 'react';
 import styles from './dropdown.module.css';
 
-interface MenuItem {
-    value: string;
-    text: string;
-}
 
-interface DropdownProps {
-    menuItems: MenuItem[];
-    name?: string;
-    width?: string;
-}
-
-const Dropdown: React.FC<DropdownProps> = ({ menuItems, name = 'Select an option', width }) => {
+const Dropdown = ({ menuItems, name = 'Select an option', width }) => {
     return (
         <div className={`${styles.dropdownContainer} ${width}`}>
             <select className={styles.selectBox}>

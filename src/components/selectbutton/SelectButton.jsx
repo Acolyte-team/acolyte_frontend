@@ -1,12 +1,8 @@
 import React from 'react';
-import styles from './SelectButton.module.css';
+import styles from './selectButton.module.css';
 
-interface SelectButtonProps {
-    img: string;
-    text: string;
-}
 
-const SelectButton: React.FC<SelectButtonProps> = ({ img, text }) => {
+const SelectButton = ({ img, text }) => {
     return (
         <div className={styles.selectButton}>
             <img src={img} alt={text} className={styles.walletImage} />
