@@ -1,0 +1,25 @@
+.button {
+    padding: 1em;
+    border-radius: 12px;
+    border: none;
+        background-color: rgba(255, 255, 255, 0.3);
+    /* Equivalent to bg-blue-900 */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+    /* Equivalent to hover:bg-blue-600 */
+    color: black;
+    /* Equivalent to hover:text-black */
+    transform: scale(1.05);
+    /* Small scale change for hover effect */
+}
+
+@media screen and (max-width: 448px) {
+    .button {
+        width: 30vw;
+    }
+}

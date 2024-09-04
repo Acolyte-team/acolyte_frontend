@@ -1,0 +1,23 @@
+.dropdownContainer {
+    width: 30vw;
+    /* Default width, can be overridden */
+}
+
+.selectBox {
+    border: 1px solid #cbd5e0;
+    /* Equivalent to border-gray-400 */
+    border-radius: 8px;
+    text-align: center;
+    font-size: 0.875rem;
+    /* text-sm */
+    padding: 0.5rem;
+    display: block;
+    width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .selectBox {
+        font-size: 1.25rem;
+        /* lg:text-xl */
+    }
+}

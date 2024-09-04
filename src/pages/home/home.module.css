@@ -1,0 +1,100 @@
+.main {
+    display: flex;
+    gap: 2em;
+    height: 90vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    width: 35vw;
+}
+
+.card {
+    width: 40vw;
+    height: 85vh;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card2 {
+    width: 40vw;
+    height: 85vh;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.9));
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.cardtext {
+    font-size: 0.6em;
+}
+
+.card3 {
+    width: 15vw;
+    height: 15vh;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card h1 {
+    font-size: 60px;
+    color: white;
+    width: 35vw;
+    margin-bottom: 20px;
+}
+
+
+/* QrCodeComponent.module.css */
+
+.qrContainer {
+    display: flex;
+    width: 20vw;
+    gap: 2em;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Adjust background color to match your design */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.instructions {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.connectButton {
+    margin-top: 20px;
+    background-color: #FF6600;
+    /* Adjust button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+}
+
+.connectButton img {
+    width: 24px;
+    height: 24px;
+}

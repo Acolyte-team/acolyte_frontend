@@ -1,0 +1,24 @@
+.inputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputField {
+    height: 2.4em;
+    width: 80vw;
+    /* Adjust this for your responsive needs */
+    max-width: 30vw;
+    /* For larger screens */
+    border-radius: 8px;
+    outline: none;
+    padding-left: 10px;
+    border: 2px solid #ccc;
+    /* Replace with your desired border color */
+}
+
+@media screen and (min-width: 1024px) {
+    .inputField {
+        width: 30vw;
+    }
+}
